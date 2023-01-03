@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Ruby on Rails",
+      "description": "lorem psom dolor una nueva descripcion para cada uno de tlodos"
+    },
+    {
+      "id": 2,
+      "title": "Python",
+      "description": "lorem psom dolor una nueva descripcion para cada uno de tlodos"
+    },
+    {
+      "id": 3,
+      "title": "Javascript",
+      "description": "lorem psom dolor una nueva descripcion para cada uno de tlodos"
+    },
+    {
+      "title": "example",
+      "description": "test desc",
+      "id": 4
+    },
+    {
+      "title": "example",
+      "description": "test desc",
+      "id": 5
+    }
+  ]
+}
