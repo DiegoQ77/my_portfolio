@@ -1,0 +1,14 @@
+.img__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img__container img {
+  border: 2px;
+  border: 2px solid black;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 2rem 0;
+}

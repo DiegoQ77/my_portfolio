@@ -4,6 +4,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useArticleContext } from "./context/index";
 import ArticlesTable from "../../components/Articles";
 import { getArticles, saveArticle } from "../../services/service.articles";
+import CardArticle from "../../components/CardArticle";
 
 function Articles() {
   const queryCLient = useQueryClient;
@@ -38,7 +39,20 @@ function Articles() {
       <br />
       <hr />
       <h2>Agrer nuevo producto</h2>
-      <form onSubmit={handleSubmit}>
+      <hr />
+      <h2>ARTICLE CARD</h2>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <CardArticle />
+      {/* <form onSubmit={handleSubmit}>
         <label htmlFor="article">Agregar producto</label>
         <br />
         <br />
@@ -47,7 +61,7 @@ function Articles() {
         <br />
         <br />
         <input type="submit" />
-      </form>
+      </form> */}
     </div>
   );
 }
