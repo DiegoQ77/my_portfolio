@@ -12,3 +12,27 @@ body {
   height: 100vh;
   margin: 0;
 }
+
+@keyframes floater {
+  0% {
+    transform: translateY(-10%);
+    transition: ease 1.8s;
+  }
+  50% {
+    transform: translateY(10%);
+    transition: ease 1.8s;
+  }
+}
+
+.float-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.floating-img {
+  transform: translateY(-10%);
+  animation: floater 3.5s infinite;
+  transition: ease 1.8s;
+}

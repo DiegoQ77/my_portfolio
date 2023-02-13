@@ -5,6 +5,7 @@ import { useArticleContext } from "./context/index";
 import ArticlesTable from "../../components/Articles";
 import { getArticles, saveArticle } from "../../services/service.articles";
 import CardArticle from "../../components/CardArticle";
+import { IArticle } from "../../types/article";
 
 function Articles() {
   const queryCLient = useQueryClient;
@@ -12,7 +13,7 @@ function Articles() {
   const { data, refetch } = useQuery({
     queryKey: ["getArticles"],
     queryFn: getArticles,
-    onSuccess: (articles: any) => {
+    onSuccess: (articles: IArticle) => {
       actions.onShowArticles(articles);
     },
   });
@@ -35,7 +36,7 @@ function Articles() {
 
   return (
     <div>
-      <ArticlesTable articles={state.articles} />
+      {/* <ArticlesTable articles={state.articles} /> */}
       <br />
       <hr />
       <h2>Agrer nuevo producto</h2>
@@ -51,8 +52,8 @@ function Articles() {
       <br />
       <br />
       <br />
-      <CardArticle />
-      {/* <form onSubmit={handleSubmit}>
+      {/* <CardArticle /> */}
+      <form onSubmit={handleSubmit}>
         <label htmlFor="article">Agregar producto</label>
         <br />
         <br />
@@ -61,7 +62,7 @@ function Articles() {
         <br />
         <br />
         <input type="submit" />
-      </form> */}
+      </form>
     </div>
   );
 }

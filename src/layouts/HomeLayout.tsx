@@ -5,7 +5,7 @@ import "./Home.css";
 
 function HomeLayout() {
   return (
-    <div className="container-Home">
+    <div className="w-full">
       <NavBar />
       <Outlet />
       <Footer />

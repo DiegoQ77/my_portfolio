@@ -10,11 +10,15 @@ import BASE_URL_API from "../constants/service.constant";
 
 const AxiosInstanceApi: AxiosInstance = axios.create({
   baseURL: `${BASE_URL_API}`,
-  headers: { "Content-Type": "application/json" },
+  headers: {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Header": "Origin",
+  },
 });
 
 const onRequest = (config: AxiosRequestConfig): AxiosRequestConfig => {
-  // const token = "bearer dsdndofndsjfnodinsaid8237e823idasd7a8dauda8";
+  const token = "bearer dsdndofndsjfnodinsaid8237e823idasd7a8dauda8";
 
   return config;
 };

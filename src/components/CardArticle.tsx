@@ -4,7 +4,7 @@ import "./card.css";
 
 const CardArticle = ({ title = "Python", description = "desc" }: any) => {
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 hover:bg-sky-100">
+    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 hover:bg-sky-500 hover:color-white">
       <div className="img__container">
         <img className="" src={rails} alt="" />
       </div>

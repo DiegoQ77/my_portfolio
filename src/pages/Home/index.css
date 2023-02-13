@@ -1,4 +1,4 @@
-.container__page {
+/* .container__page {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -44,10 +44,10 @@ section {
 }
 .general__info-about p {
   margin-bottom: 2rem;
-}
+} */
 /* Second section description*/
 
-.description__section {
+/* .description__section {
   background-color: #1261ff;
 }
 
@@ -71,11 +71,11 @@ section {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-}
+} */
 
 /* Programming lenguajes section */
 
-.lenguejes__section {
+/* .lenguejes__section {
 }
 
 .lenguajes__container {
@@ -89,7 +89,49 @@ section {
 .lenguajes__container-head {
 }
 
+.lenguajes__container-head span {
+  color: #051229;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.lenguajes__container-head h1 {
+  font-weight: 900;
+  margin-bottom: 2rem;
+  color: #1261ff;
+}
+
 .container__cards {
   margin-top: 4rem;
   margin-bottom: 4rem;
+} */
+
+/* #wave {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  background: #e0efe3;
 }
+#wave:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  right: -5px;
+  top: 40px;
+}
+#wave:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 100%;
+  height: 70px;
+  background-color: #e0efe3;
+  left: 0;
+  top: 27px;
+} */
