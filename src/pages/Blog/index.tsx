@@ -107,7 +107,7 @@ function Blog() {
           <br />
           <br />
           <button
-            className="bg-blue-primary w-1/2 m-auto h-24 rounded-xl "
+            className="bg-blue-primary w-1/2 m-auto h-14 rounded-xl "
             type="submit"
           >
             Crete Post

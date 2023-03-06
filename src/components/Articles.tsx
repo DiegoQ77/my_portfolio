@@ -32,7 +32,7 @@ function ArticlesTable({ articles }: IArtricles) {
               {articles.map((article: IArticle, idx: number) => {
                 return (
                   <tr
-                    className="border-b hover:bg-gray text-xl mt-2"
+                    className="border-b hover:bg-gray sm:text-xl mt-2"
                     key={article.id}
                   >
                     <td># {idx + 1}</td>

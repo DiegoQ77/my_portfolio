@@ -7,20 +7,20 @@ function Initial() {
     <section className="">
       <div className="container-default h-screen sm:max-h-[100vh] w-full flex flex-col sm:flex-row p-2 sm:p-20">
         <div className="flex flex-col justify-center p-5 ">
-          <div className="general__info mt-20 Card-fade-in">
+          <div className="general__info mt-20 ">
             <h4 className="text-blue-primary">Hey There I am</h4>
-            <h2 className="text-blue-dark text-5xl font-black mt-4 mb-4 Card-fade-in">
+            <h2 className="text-blue-dark text-5xl font-black mt-4 mb-4">
               Diego Quisbert
             </h2>
             <h3 className="mt-2 mb-2">Software Developer</h3>
           </div>
-          <div className="mt-2 flex flex-col items-center sm:items-start Card-fade-in">
+          <div className="mt-2 flex flex-col items-center sm:items-start ">
             <p className="text-gray ">
               My name is Diego and I am from La Paz, Bolivia. I like to code and
               all related to techonology. I manage front and back end in
               programming. Thanks for watch this website and enjoy my articles!
             </p>
-            <div className="flex flex-col sm:flex-row ">
+            <div className="flex flex-col sm:flex-row Card-fade-in">
               <a
                 href="/articles"
                 type="button"
