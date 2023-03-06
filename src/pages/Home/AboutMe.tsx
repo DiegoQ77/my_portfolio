@@ -1,6 +1,7 @@
 /* eslint-disable no-return-assign */
 /* eslint-disable react/jsx-no-target-blank */
 import { FaGithub, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+
 import developer_img_2 from "../../../public/img2.svg";
 
 function AboutMe() {
@@ -32,10 +33,10 @@ function AboutMe() {
                     <FaGithub
                       color="white"
                       size="35px"
-                      onMouseOver={({ target }) =>
+                      onMouseOver={({ target }: any) =>
                         (target.style.color = "051229")
                       }
-                      onMouseOut={({ target }) =>
+                      onMouseOut={({ target }: any) =>
                         (target.style.color = "white")
                       }
                     />
@@ -49,10 +50,10 @@ function AboutMe() {
                     <FaLinkedin
                       color="white"
                       size="35px"
-                      onMouseOver={({ target }) =>
+                      onMouseOver={({ target }: any) =>
                         (target.style.color = "051229")
                       }
-                      onMouseOut={({ target }) =>
+                      onMouseOut={({ target }: any) =>
                         (target.style.color = "white")
                       }
                     />
@@ -63,10 +64,10 @@ function AboutMe() {
                     <FaTwitterSquare
                       size="35px"
                       color="white"
-                      onMouseOver={({ target }) =>
+                      onMouseOver={({ target }: any) =>
                         (target.style.color = "051229")
                       }
-                      onMouseOut={({ target }) =>
+                      onMouseOut={({ target }: any) =>
                         (target.style.color = "white")
                       }
                     />
