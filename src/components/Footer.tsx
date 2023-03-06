@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 
 const Footer = () => {
   return (
-    <div className=" h-auto sm:min-h-[80vh] bg-blue-dark text-white p-16 ">
+    <div className=" h-auto  bg-blue-dark text-white p-16 ">
       <div className="text-white  grid grid-cols-1 sm:grid-cols-3 gap-4 content-center ">
         <div className="text-center">
           <h2 className="text-4xl font-extrabold">Contact me!</h2>

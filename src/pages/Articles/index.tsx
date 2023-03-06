@@ -17,9 +17,9 @@ function Articles() {
   });
 
   return (
-    <div className="bg-blue-dark">
+    <div className="bg-blue-dark ">
       <section className="bg-blue-dark">
-        <div className="container-default w-full h-full sm:h-full flex flex-col sm:flex-row p-10 sm:p-20">
+        <div className=" container-default w-full h-full sm:h-full flex flex-col sm:flex-row p-10 sm:p-20">
           <ArticlesTable articles={state.articles} />
         </div>
       </section>

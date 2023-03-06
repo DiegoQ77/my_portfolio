@@ -12,7 +12,7 @@ interface IArtricles {
 
 function ArticlesTable({ articles }: IArtricles) {
   return (
-    <div className="text-white mt-10">
+    <div className="text-white mt-10 ">
       <div className="border-white">
         <h2 className="mt-10 text-5xl font-bold text-center">My articles </h2>
         <p className="mt-5 text-center text-xl ">
