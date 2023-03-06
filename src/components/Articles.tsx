@@ -1,11 +1,16 @@
+/* eslint-disable react/no-unused-prop-types */
 import React from "react";
-
 import { FaEye } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import articlesImg from "../../public/articleOne.svg";
+import { IArticle } from "../types/article";
 
-function ArticlesTable({ articles }: any) {
+interface IArtricles {
+  articles: IArticle;
+}
+
+function ArticlesTable({ articles }: IArtricles) {
   return (
     <div className="text-white mt-10">
       <div className="border-white">
@@ -24,7 +29,7 @@ function ArticlesTable({ articles }: any) {
           </h2>
           <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
             <tbody>
-              {articles.map((article: any, idx: any) => {
+              {articles.map((article: IArticle, idx: number) => {
                 return (
                   <tr
                     className="border-b hover:bg-gray text-xl mt-2"

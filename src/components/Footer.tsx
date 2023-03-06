@@ -8,16 +8,17 @@ const Footer = () => {
       <div className="text-white  grid grid-cols-1 sm:grid-cols-3 gap-4 content-center ">
         <div className="text-center">
           <h2 className="text-4xl font-extrabold">Contact me!</h2>
-          <h3 className="mt-5 font-bold text-xl">Contact info</h3>
-          <h4 className="">diego.quisbert77@gmail.com</h4>
-          <h4 className="">Adress Av La pulida Pueblo</h4>
+          <h3 className="mt-5 font-bold text-s">Contact info</h3>
+          <h4 className="mt-6">diego.quisbert77@gmail.com</h4>
+          <h4 className="">Av.La pulida Pueblo Nuevo </h4>
+          <h4 className="">Phone: +591 61236321 </h4>
         </div>
         <div className=" text-center">
           <h2 className="text-4xl font-extrabold mb-4">What I Do?</h2>
-          <h4 className="">Web Developer</h4>
-          <h4 className="">Software sistems</h4>
-          <h4 className="">Software Maintenance</h4>
-          <h4 className="">Software Design</h4>
+          <h4 className="sm:mt-6">Web Developer</h4>
+          <h4 className="sm:mt-6">Software sistems</h4>
+          <h4 className="sm:mt-6">Software Maintenance</h4>
+          <h4 className="sm:mt-6">Software Design</h4>
         </div>
         <div className=" text-center">
           <ContactForm />

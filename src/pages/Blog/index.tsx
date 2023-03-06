@@ -25,8 +25,6 @@ function Blog() {
     description: "",
   });
 
-  const [comentario, setComentario] = useState("deadad");
-
   const hanldeInputChange = (e: any) => {
     setBlogPost({ ...blogPost, [e.target.name]: e.target.value });
   };
