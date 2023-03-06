@@ -3,32 +3,33 @@
     {
       "id": 1,
       "title": "Ruby on Rails",
-      "description": "lorem psom dolor una nueva descripcion para cada uno de tlodos"
+      "description": "Ruby is dynamically typed and uses a minimalist syntax much like Python. It’s concise, using spacing to organize code in lieu of brackets or other symbols to define blocks within a script. Below is a simple loop that cycles through a list of languages and prints all the entries that start with the letter ‘r’.",
+      "publicated": "2020-02-05",
+      "introduction": "Ruby on Rails is an open-source web application development framework written in the Ruby programming language. It is one of the most popular Ruby libraries and one of the top reasons developers choose to learn Ruby. Modern web applications can be very complex with many layers. Rails makes web development easier, providing a pre-built structure for development and everything you need to build a web app.",
+      "conclution": "The Syntax of Ruby on rail is simple, concise, closer to English language & flexible. Ruby is an object-oriented programming language, which allows you to create virtual objects in your code. The figure below compares a simple Hello World code in Ruby with the same with PHP"
     },
     {
       "id": 2,
       "title": "Python",
-      "description": "lorem psom dolor una nueva descripcion para cada uno de tlodos"
+      "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.",
+      "publicated": "2020-02-05",
+      "introduction": "Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.",
+      "conclution": "Python programming is powering the global job market because the benefits of Python are clear. Python is one of the top three programming languages in the world, and is poised to become the most popular, according to ZDNet. In fact, according to the PYPL Index, Python is the most popular programming language world-wide, so if you want to work in a different country, you have a good chance of landing a job in, say, Switzerland or Australia. Where would you like to work? Adding Python to your skill set could be your ticket to anywhere."
     },
     {
       "id": 3,
       "title": "Javascript",
-      "description": "lorem psom dolor una nueva descripcion para cada uno de tlodos"
+      "description": "Like with all programming languages, JavaScript has certain advantages and disadvantages to consider. Many of these are related to the way JavaScript is often executed directly in a client's browser. But there are other ways to use JavaScript now that allow it to have the same benefits of server-side languages.",
+      "publicated": "2020-02-05",
+      "introduction": "JavaScript is a lightweight programming language that web developers commonly use to create more dynamic interactions when developing web pages, applications, servers, and or even games.",
+      "conclution": "JavaScript has become a revolutionary technology that everyone seems to talk about. The field of JavaScript is massive and has its fair share of some Pros and Cons. Moving ahead in our JavaScript tutorial, we are going to elaborate Pros and Cons of using JavaScript. It is a wonderful language to learn and implement. We will understand the reason why JavaScript is so popular. Also, we will go through some of the weaknesses that JavaScript possesses."
     },
     {
-      "title": "example",
-      "description": "test desc",
+      "title": "Python and Excel",
+      "introduction": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "conclution": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "id": 4
-    },
-    {
-      "title": "example",
-      "description": "test desc",
-      "id": 5
-    },
-    {
-      "title": "example",
-      "description": "test desc",
-      "id": 6
     }
   ]
 }

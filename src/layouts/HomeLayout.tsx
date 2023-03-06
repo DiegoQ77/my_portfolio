@@ -1,11 +1,10 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
-import "./Home.css";
 
 function HomeLayout() {
   return (
-    <div className="w-full">
+    <div className="">
       <NavBar />
       <Outlet />
       <Footer />

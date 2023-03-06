@@ -1,6 +1,7 @@
 import Articles from "../pages/Articles";
 import ArticlesLayout from "../layouts/ArticlesLayout";
 import { ArticleContextProvider } from "../pages/Articles/context/index";
+import Article from "../pages/Article/index";
 
 const ArticlesRoutes = {
   path: "/articles",
@@ -13,6 +14,10 @@ const ArticlesRoutes = {
           <Articles />
         </ArticleContextProvider>
       ),
+    },
+    {
+      path: ":id",
+      element: <Article />,
     },
   ],
 };

@@ -1,6 +1,5 @@
 import React from "react";
 import rails from "../../public/rails.jpg";
-import "./card.css";
 
 const CardArticle = ({ title = "Python", description = "desc" }: any) => {
   return (

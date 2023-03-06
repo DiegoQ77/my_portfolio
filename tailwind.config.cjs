@@ -9,25 +9,18 @@ module.exports = {
       xl: "1440px",
     },
     colors: {
+      blue: "#0956f9",
       "blue-primary": "#0956f9",
       "blue-dark": "#051229",
       "blue-second": "#0b4bc8",
       gray: "#808080",
       white: "#fafafa",
-      // blue: "#1261ff",
-      // purple: "#7e5bef",
-      // pink: "#ff49db",
-      // orange: "#ff7849",
-      // green: "#13ce66",
-      // yellow: "#ffc82c",
-      // "gray-dark": "#273444",
-      // gray: "#8492a6",
-      // "gray-light": "#d3dce6",
     },
     fontFamily: {
-      sans: ["Graphik", "sans-serif"],
-      serif: ["Merriweather", "serif"],
+      sans: ["Inter", "sans-serif"],
+      serif: ["Quicksand", "serif-serif"],
     },
+
     extend: {
       spacing: {
         128: "32rem",
@@ -35,6 +28,10 @@ module.exports = {
       },
       borderRadius: {
         "4xl": "2rem",
+      },
+      height: {
+        100: "28rem",
+        118: "36rem",
       },
     },
   },
