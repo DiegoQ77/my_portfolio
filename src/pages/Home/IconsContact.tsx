@@ -11,8 +11,8 @@ function IconsContact() {
             <FaGithub
               color="white"
               size="35px"
-              onMouseOver={({ target }) => (target.style.color = "blue")}
-              onMouseOut={({ target }) => (target.style.color = "white")}
+              onMouseOver={({ target }: any) => (target.style.color = "blue")}
+              onMouseOut={({ target }: any) => (target.style.color = "white")}
             />
           </a>
         </div>
@@ -24,8 +24,8 @@ function IconsContact() {
             <FaLinkedin
               color="white"
               size="35px"
-              onMouseOver={({ target }) => (target.style.color = "blue")}
-              onMouseOut={({ target }) => (target.style.color = "white")}
+              onMouseOver={({ target }: any) => (target.style.color = "blue")}
+              onMouseOut={({ target }: any) => (target.style.color = "white")}
             />
           </a>
         </div>
@@ -34,8 +34,8 @@ function IconsContact() {
             <FaTwitterSquare
               size="35px"
               color="white"
-              onMouseOver={({ target }) => (target.style.color = "blue")}
-              onMouseOut={({ target }) => (target.style.color = "white")}
+              onMouseOver={({ target }: any) => (target.style.color = "blue")}
+              onMouseOut={({ target }: any) => (target.style.color = "white")}
             />
           </a>
         </div>
