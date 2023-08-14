@@ -39,7 +39,11 @@ function Blog() {
     any,
     Error
   >(async () => {
-    return saveArticle({ ...blogPost, publicated: formatDate(new Date()) });
+    return saveArticle({
+      ...blogPost,
+      publicated: formatDate(new Date()),
+      id: 0,
+    });
   });
   const handleSubmit = (e: any) => {
     e.preventDefault();

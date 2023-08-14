@@ -1,7 +1,13 @@
-import React, { useRef, useState } from "react";
+/* eslint-disable react/prop-types */
+import React, { useState } from "react";
 import { FaGithub, FaJs, FaPython, FaReact, FaBeer } from "react-icons/fa";
-
 import { DiRuby, DiMysql, DiPhp } from "react-icons/di";
+
+interface CardCodeProps {
+  title: string;
+  icon?: keyof typeof icons; // Usamos 'keyof typeof icons' para inferir los nombres de iconos válidos
+  text: string;
+}
 
 const icons = {
   FaBeer: FaBeer,
@@ -14,10 +20,9 @@ const icons = {
   FaPython: FaPython,
 };
 
-const CardCode = ({ title, icon = "FaJs", text }) => {
+const CardCode: React.FC<CardCodeProps> = ({ title, icon = "FaJs", text }) => {
   const [colorHover, setColorHover] = useState("white");
   const [colorBorder, setColorBorder] = useState("blue-primary");
-  const card = useRef("blue");
 
   const IconComponent = icons[icon];
   const handleHoverColor = () => {
@@ -32,7 +37,7 @@ const CardCode = ({ title, icon = "FaJs", text }) => {
 
   return (
     <div
-      className=" flex flex-col items-center justify-center p-8 gradient_bg_color hover:text-white rounded-lg bg-white shadow-xl"
+      className="flex flex-col items-center justify-center p-8 gradient_bg_color hover:text-white rounded-lg bg-white shadow-xl"
       onMouseEnter={handleHoverColor}
       onMouseLeave={handleLeaveColor}
     >
@@ -41,7 +46,7 @@ const CardCode = ({ title, icon = "FaJs", text }) => {
       >
         <IconComponent size="4rem" color={colorHover} />
       </div>
-      <h3 className="font-extrabold mt-6 ">{title}</h3>
+      <h3 className="font-extrabold mt-6">{title}</h3>
       <p className="mt-6">{text}</p>
     </div>
   );

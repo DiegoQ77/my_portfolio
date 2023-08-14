@@ -2,27 +2,31 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 function ContactForm() {
-  const form = useRef();
-  const sendEmail = (e) => {
+  const form = useRef<HTMLFormElement>(null);
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    // Use FormEvent type
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_9o9bnxl",
-        "template_bpxcvj1",
-        form.current,
-        "tWsZuQIUky0qwG50N",
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert("Thank you for your email");
-        },
-        (error) => {
-          console.log(error.text);
-          alert("There was en error");
-        },
-      );
-    e.target.reset();
+    if (form.current) {
+      // Check if the form reference is valid
+      emailjs
+        .sendForm(
+          "service_9o9bnxl",
+          "template_bpxcvj1",
+          form.current,
+          "tWsZuQIUky0qwG50N",
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            alert("Thank you for your email");
+          },
+          (error) => {
+            console.log(error.text);
+            alert("There was an error");
+          },
+        );
+      form.current.reset();
+    }
   };
   return (
     <div>
