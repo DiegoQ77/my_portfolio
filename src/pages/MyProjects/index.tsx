@@ -10,7 +10,8 @@ function MyProjects() {
             My projects on GitHub{" "}
           </h2>
           <p className="text-center text-white ">
-            Sorry, this page is current in progress.
+            Sorry, this page is current in progress. Visit my github:
+            https://github.com/DiegoQ77
           </p>
         </div>
 
