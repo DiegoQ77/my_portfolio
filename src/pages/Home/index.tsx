@@ -26,11 +26,10 @@ function Home() {
           <div className="w-full p-4 sm:w-1/2 m-auto text-center mt-5">
             <p className="text-gray ">
               Throughout my journey as a developer, my services focus on
-              developing quality software. The programming languages ​​that I
-              use are for the frontend part and for the backend part. I can
-              develop personal applications, for companies or administration
-              systems such as billing. Some of the programming languages. ​I use
-              are.
+              developing quality software. The programming languages that I use
+              are for the frontend part and for the backend part. I can develop
+              personal applications, for companies or administration systems
+              such as billing. Some of the programming languages. I use are.
             </p>
           </div>
 

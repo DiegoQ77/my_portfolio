@@ -15,16 +15,18 @@ function ContactForm() {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Thank you for your email");
         },
         (error) => {
           console.log(error.text);
+          alert("There was en error");
         },
       );
     e.target.reset();
   };
   return (
     <div>
-      <h2 className="text-4xl font-extrabold">Send me a email</h2>
+      <h2 className="text-4xl font-extrabold">Send me an email</h2>
 
       <form ref={form} className="mt-5 text-blue-dark" onSubmit={sendEmail}>
         <input

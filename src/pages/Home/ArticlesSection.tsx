@@ -5,7 +5,7 @@ function ArticlesSection() {
     <div className="container-default flex flex-row p-10">
       <div className="text-center w-full sm:w-3/6 text-white p-10 m-auto ">
         <h2 className="text-5xl font-extrabold">Read my articles</h2>
-        <p className="mt-5">
+        <p className="mt-5 text-lg">
           I created many articles related to tech, you can contact with me if
           you have any questions. Normally I post one article in one month, the
           topics as JS, Python, Ruby, Data base and others.
@@ -15,7 +15,7 @@ function ArticlesSection() {
           type="button"
           className="bg-blue-dark w-64 h-12 text-white rounded-full font-bold mt-5 p-3 text-center"
         >
-          Explore my articlas
+          Explore my articles
         </a>
       </div>
       <div className="w-0 sm:w-3/6">

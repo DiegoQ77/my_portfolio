@@ -23,7 +23,7 @@ function ArticlesTable({ articles }: IArtricles) {
         </p>
         <img src={articlesImg} alt="" className="mt-10 mb-5" />
 
-        <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-10">
+        {/* <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-10">
           <h2 className="mt-5 mb-14 text-5xl font-bold text-center">
             Explore my articles
           </h2>
@@ -48,7 +48,7 @@ function ArticlesTable({ articles }: IArtricles) {
               })}
             </tbody>
           </table>
-        </div>
+        </div> */}
       </div>
       <hr className="mt-10" />
     </div>
