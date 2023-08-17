@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import article2 from "../../../public/article4.svg";
 
 function ArticlesSection() {
@@ -10,13 +11,14 @@ function ArticlesSection() {
           you have any questions. Normally I post one article in one month, the
           topics as JS, Python, Ruby, Data base and others.
         </p>
-        <a
-          href="/articles"
+
+        <Link
+          to="/articles"
           type="button"
           className="bg-blue-dark w-64 h-12 text-white rounded-full font-bold mt-5 p-3 text-center"
         >
           Explore my articles
-        </a>
+        </Link>
       </div>
       <div className="w-0 sm:w-3/6">
         <img src={article2} alt="developer" className="w-2/3 m-auto" />

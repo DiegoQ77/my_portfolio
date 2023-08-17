@@ -16,12 +16,13 @@ function AboutMe() {
               Enginner
             </h2>
             <p className="text-white font-bold mt-6 sm:w-auto">
-              My name is Diego de Bolivian nationality, I have 24 years old, I
-              am a graduate of the engineering career Software at the University
-              Technological of Panama, I I consider a person responsible,
-              enterprising and creative, I love him software development,
-              technology and everything computer related. I have more than a
-              year in software development Web.
+              My name is Diego, and I am of Bolivian nationality. I am 24 years
+              old and hold a degree in Software Engineering from the
+              Technological University of Panama. I consider myself a
+              responsible, enterprising, and creative individual. I have a
+              passion for software development, technology, and everything
+              related to computers. I have over a year of experience in
+              web-based software development.
             </p>
             <div className="mt-6">
               <h4 className="text-white text-xl font-extrabold">
