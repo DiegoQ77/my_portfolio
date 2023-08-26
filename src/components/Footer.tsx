@@ -10,8 +10,8 @@ const Footer = () => {
           <h2 className="text-4xl font-extrabold">Contact me!</h2>
           <h3 className="mt-5 font-bold text-s">Contact info</h3>
           <h4 className="mt-6">diego.quisbert77@gmail.com</h4>
-          <h4 className="">Av.La pulida Pueblo Nuevo </h4>
-          <h4 className="">Phone: +591 61236321 </h4>
+          <h4 className="">La Paz Bolivia</h4>
+          <h4 className="">Phone: +591 69853542 </h4>
         </div>
         <div className=" text-center">
           <h2 className="text-4xl font-extrabold mb-4">What I Do?</h2>

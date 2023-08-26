@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable no-return-assign */
 import developer from "../../../public/developer.png";
+import Icon from "../../assets/atom-svgrepo-com.svg";
 
 function Initial() {
   return (

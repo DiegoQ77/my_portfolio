@@ -10,14 +10,14 @@ function ExperienceSection() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 w-full">
           <CardExperience
-            title="FullStack Web Developer in JalaSoft"
+            title="FullStack Web Developer in JalaSoft Bolivia"
             dates="2022-07-01 to 2023-07-10"
             description="I was in a full stack specialitation in Jalasoft, I used technologies like python, react, git and methologies like scrum
             also I build an api rest using FastApi and I connect react services with third party services
             as Keycloak. I used docker to integrate the application"
           />
           <CardExperience
-            title="First place in Hackathon datos abiertos Panama"
+            title="Software Developer in Maxia Latam Panama"
             dates="2022-01-15 to 2022-06-01"
             description="In MaxiaLatam. I was a junior developer using techonologis as
             react, php, mysql. I was working on two big softwares to public
@@ -25,7 +25,7 @@ function ExperienceSection() {
             analisys"
           />
           <CardExperience
-            title="Software development Junior on LoanMate"
+            title="Software developer Junior on LoanMate"
             dates="2020-12-15 to 2022-01-15 "
             description="In LoanMate I was in charge of carrying out the implementation
             of new modules to the loan administration system, using
