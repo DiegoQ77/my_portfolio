@@ -6,7 +6,7 @@ function App() {
   const [isLoading, setLoading] = useState(true);
 
   const someRequest = () => {
-    return new Promise<void>((resolve) => setTimeout(() => resolve(), 1500));
+    return new Promise<void>((resolve) => setTimeout(() => resolve(), 3500));
   };
   useEffect(() => {
     someRequest().then(() => {
