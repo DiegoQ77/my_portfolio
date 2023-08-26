@@ -17,6 +17,10 @@ function App() {
       }
     });
   });
+  if (isLoading) {
+    return null;
+  }
+
   return <Routes />;
 }
 
