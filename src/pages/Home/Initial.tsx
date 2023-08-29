@@ -13,7 +13,7 @@ function Initial() {
             <h2 className="text-blue-dark text-5xl font-black mt-4 mb-4">
               Diego Quisbert
             </h2>
-            <h3 className="mt-2 mb-2">Software Developer</h3>
+            <h3 className="mt-2 mb-2">Software Engineer</h3>
           </div>
           <div className="mt-2 flex flex-col items-center sm:items-start ">
             <p className="text-gray ">
@@ -30,7 +30,7 @@ function Initial() {
                 My Articles
               </a>
               <a
-                href="https://drive.google.com/file/d/1K6Ikf2kO1wXkxu2Gl_Ex_IepgSw1elUv/view"
+                href="https://drive.google.com/file/d/1YnOyuanv6hiolQFXmiHH224GWDjPHM34/view?usp=sharing"
                 target="_blank"
                 type="button"
                 className="bg-blue-dark w-64 h-12 text-white rounded-full font-bold mt-5 p-3 text-center"
